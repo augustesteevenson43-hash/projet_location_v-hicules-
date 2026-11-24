@@ -1,0 +1,47 @@
+{
+    "vehicules": [
+        {
+            "type": "Voiture",
+            "identifiant": "1",
+            "marque": "Toyota",
+            "modele": "Corolla",
+            "tarif_journalier": 50,
+            "disponible": true,
+            "nombre_places": 5
+        },
+        {
+            "type": "Voiture",
+            "identifiant": "2",
+            "marque": "Hyundai",
+            "modele": "Tucson",
+            "tarif_journalier": 75,
+            "disponible": true,
+            "nombre_places": 5
+        },
+        {
+            "type": "Moto",
+            "identifiant": "3",
+            "marque": "Honda",
+            "modele": "CB",
+            "tarif_journalier": 25,
+            "disponible": true,
+            "cylindree": 150
+        }
+    ],
+    "clients": [
+        {
+            "identifiant": "1",
+            "nom": "Client Démo",
+            "telephone": "000-000-0000"
+        }
+    ],
+    "reservations": [],
+    "maintenances": [],
+    "historique": [],
+    "prochain_id": {
+        "vehicule": 4,
+        "client": 2,
+        "reservation": 1,
+        "maintenance": 1
+    }
+}
